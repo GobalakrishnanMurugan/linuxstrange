@@ -1,0 +1,20 @@
+1.Open Terminal and run this command to update Apt:
+$ sudo apt-get update
+
+2.Now, run these commands to install NumPy, SciPy, and OpenCV with
+Python bindings:
+$ sudo apt-get install python-numpy
+$ sudo apt-get install python-scipy
+$ sudo apt-get install libopencv-*
+$ sudo apt-get install python-opencv
+Enter Y whenever prompted about package installation.
+
+$mkdir faces/
+
+$python crop.py
+it store postive faces on faces direcory
+
+$python tanining.py
+ it's used to genrated xml file using exiting postive face directory 
+
+$python display.py
